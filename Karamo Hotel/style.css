@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: rgba(235, 232, 225)
+}
+header{
+    background: url('/fc6fb888051715\ 1\ \(1\).png') no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    padding-left: .4rem;
+}
+.navbar{
+    display: flex;
+}
+nav{
+    width: 70%;
+    margin-left: 200px;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.first{
+    display: flex;
+    justify-content:flex-end;
+}
+#logo{
+    color: #e2b36c;
+    background-color:#1C323A ;
+    max-width: 150px;
+    height: 100px;
+    margin-left:50px;
+    padding: 15px;
+}
+.btn{
+    text-align: center;
+    margin-top: 200px;
+    color: #e2b36c; 
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.team{
+    display: flex;
+    margin-top: 40px;
+
+}
+.team a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.team li{
+    list-style: none;
+    padding-right: 60px;
+}
+  
+.team a:hover{
+    color: #e2b36c;
+    
+}
+
+@media(max-width:700px){
+    .team{
+        display: flex;
+        flex-direction: column;
+    }
+    #logo{
+        margin-right: 20px;
+    }
+    .container{
+        margin: 0;
+    }
+}
